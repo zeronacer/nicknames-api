@@ -3,7 +3,7 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
-const port = 443;
+const port = 3000;
 
 // routes
 // informative base route
@@ -43,7 +43,7 @@ app.get('/api/subject', (req, res) => {
 });
 
 // start application
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
 	console.log('Nickname API listening on port ' + port);
 });
 
