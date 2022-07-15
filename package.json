@@ -1,0 +1,11 @@
+{
+  "name": "nicknames-api",
+  "version": "1.0.0",
+  "description": "A small API project to fetch german words by type.",
+  "main": "index.js",
+  "author": "Maximilian Grabau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
